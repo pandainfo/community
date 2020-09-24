@@ -36,10 +36,10 @@ mkdocs-material>=5.5
 #pymdown-extensions>=7.0
 
 # Install the Awesome Pages plugin
-mkdocs-awesome-pages-plugin
+mkdocs-awesome-pages-plugin>=2.2
 
 # Install the Last Update plugin
-mkdocs-git-revision-date-localized-plugin
+mkdocs-git-revision-date-localized-plugin>=0.7
 
 # Install the Minify HTML and JS plugin
-mkdocs-minify-plugin
+mkdocs-minify-plugin>=0.3
