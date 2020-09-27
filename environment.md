@@ -58,7 +58,8 @@ This file will be respected by both [WP-CLI Dotenv](https://aaemnnost.tv/wp-cli-
 [salts]: https://wpdatatables.com/wordpress-salts-and-keys/ "WordPress Salts and Keys: Everything You Need to Know"
 
 * Website customization
-  * `TITLE` – Every good story needs a good name
-  * `ADMIN` – Not calling superuser accounts `admin` or `administrator` is recommended
-  * `PASSWORD` – Every good admin needs a good password
-  * `EMAIL` – Setting an email address for the primary admin account is optional
+  * `WP_TITLE` – Every good story needs a good name
+  * `WP_ADMIN_USER` – Not calling superuser accounts `admin` or `administrator` is recommended
+  * `WP_ADMIN_PASSWORD` – Every good admin needs a good password
+  * `WP_ADMIN_EMAIL` – Setting an email address for the primary admin account is optional
+
