@@ -2,7 +2,7 @@
 
 This project is free software published under the [AGPL] copyleft license.
 
-    PANDA – NEW GENERATION E-COMMERCE PLATFORM
+    PANDA – NEXT GENERATION E-COMMERCE PLATFORM
     COPYRIGHT (c) 2020  PABLO HÖRTNER <REDTUX@PM.ME>
 
 Unless explicitly noted otherwise,
