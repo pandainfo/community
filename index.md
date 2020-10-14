@@ -51,9 +51,8 @@ For full documentation visit the [docs](docs) pages.
 > **Table of contents**
 
 1. [About](#about)
-2. [TODOs](#todos)
-3. [Authors](#authors)
-4. [Licensing](#licensing)
+2. [Authors](#authors)
+3. [Licensing](#licensing)
 
 ## About
 
@@ -92,44 +91,6 @@ For details [see below](#️licensing).
 [code of conduct]: CODE_OF_CONDUCT.md "Contributor Covenant Code of Conduct"
 [Netiquette]: https://tools.ietf.org/html/rfc1855 "Netiquette Guidelines from October 1995"
 [agpl]: https://www.gnu.org/licenses/agpl-3.0.html "GNU Affero General Public License"
-
-## TODOs
-
-* [ ] Add features described above as plugins and via WP-CLI
-  * [ ] Static Site Builder
-  * [ ] ActivityPub
-  * [x] CMS Creator
-  * [ ] WooCommerce
-  * [ ] ONIX Import
-  * [ ] CRM
-  * [ ] Newsletter management
-  * [ ] ERP
-  * [ ] SCP incl. EDIFACT support
-  * [ ] DMS
-  * [ ] Accounting (FinanzOnline)
-  * [ ] HRM
-* [ ] Test Panda scripts in `bin/` with more OSes (Ubuntu only so far)
-* [x] Add PhpMyAdmin to Panda Services
-* [x] Rename `README.md` title to **NEXT GENERATION E-COMMERCE PLATFORM**
-  * [ ] Explain markdown and new generation e-commerce
-  * [ ] Explain separation of content and presentation
-  * [ ] Explain micro-services and dependency management
-  * [ ] Explain automation, clouds, CI/CD, CDN, etc.
-* [x] Move quickstart instructions from `README.md` to `docs/`
-* [x] Move copyright information from `README.md` to `docs/`
-* [x] Move `LICENSE.md` to `docs/`
-* [x] Move `AUTHORS.md` to `docs/`
-* [x] Move `CODE_OF_CONDUCT.md` to `docs/code-of-conduct.md`
-* [ ] Add EDIFACT page to `docs/`
-* [ ] Add ONIX page to `docs/`
-* [ ] Include Panda Core docs
-* [x] Add `.env` to GitHub secrets
-* [x] Create WP instance on sprit.org
-* [x] Create deploy GitHub Actions for
-  * [ ] development
-  * [ ] staging
-  * [ ] production
-* [x] Deploy to Hetzner via sftp
 
 ## Authors
 
