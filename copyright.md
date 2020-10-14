@@ -22,7 +22,7 @@ either version 3 of the License, or (at your option) any later version.
     See the License for the specific language governing permissions and
     limitations under the License.
 
-You may obtain a copy of the License [here](license.md) or at
+You may obtain a copy of the License [here](LICENSE.md) or at
 
     https://www.gnu.org/licenses/agpl-3.0.html
 

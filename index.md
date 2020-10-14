@@ -40,7 +40,7 @@ for selling, merchandising and searching books and digital media.
 * [![Build Status](https://img.shields.io/github/stars/squidfunk/mkdocs-material.svg?style=flat-square)](https://github.com/squidfunk/mkdocs-material) [**Material for MkDocs**](https://github.com/squidfunk/mkdocs-material)
 * [![Build Status](https://img.shields.io/github/stars/WordPress/WordPress.svg?style=flat-square)](https://github.com/WordPress/WordPress) [**WordPress Core**](https://make.wordpress.org/core/components/)
 
-For full documentation visit the [docs](docs) pages.
+For full documentation visit the [docs](./) pages.
 
 <!-- Abbreviations used by MkDocs for building a glossary -->
 <!-- https://squidfunk.github.io/mkdocs-material/reference/abbreviations/ -->
@@ -88,7 +88,7 @@ For details [see below](#️licensing).
 
 **Happy hacking!** 💜🤓
 
-[code of conduct]: CODE_OF_CONDUCT.md "Contributor Covenant Code of Conduct"
+[code of conduct]: code-of-conduct.md "Contributor Covenant Code of Conduct"
 [Netiquette]: https://tools.ietf.org/html/rfc1855 "Netiquette Guidelines from October 1995"
 [agpl]: https://www.gnu.org/licenses/agpl-3.0.html "GNU Affero General Public License"
 
@@ -96,7 +96,7 @@ For details [see below](#️licensing).
 
 - **Pablo Hörtner** - _Initial work_ - [🐼 Team panda!](https://github.com/orgs/pandainfo/teams/panda)
 
-See also the [AUTHORS.md](docs/AUTHORS.md) file and the [full list of contributors](https://github.com/pandainfo/panda/contributors) who participated in this project.
+See also the [AUTHORS.md](AUTHORS.md) file and the [full list of contributors](https://github.com/pandainfo/panda/contributors) who participated in this project.
 
 ## Licensing
 
@@ -105,7 +105,7 @@ See also the [AUTHORS.md](docs/AUTHORS.md) file and the [full list of contributo
 
 Unless explicitly noted otherwise, all the content on this site is released under the following terms.
 
-For further information see [copyright.md](docs/copyright.md).
+For further information see [copyright.md](copyright.md).
 
 This project is free software: you can redistribute it and/or modify it under the terms of the **GNU Affero General Public License** as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
@@ -115,6 +115,6 @@ This project is free software: you can redistribute it and/or modify it under th
     See the License for the specific language governing permissions and
     limitations under the License.
 
-You may obtain a copy of the License [here](LICENSE) or at
+You may obtain a copy of the License [here](LICENSE.md) or at
 
     https://www.gnu.org/licenses/agpl-3.0.html
