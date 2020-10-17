@@ -10,8 +10,6 @@
   Built in Vienna with ❤️
 </p>
 
-> **ATTENTION: This project is in early alpha stage, so things may change quickly.**
-
 <!--
 [![AGPL-3.0 License](https://flat.badgen.net/github/license/pandainfo/panda)](LICENSE.md)
 [![Latest Version](https://flat.badgen.net/packagist/v/pandainfo/panda)](https://packagist.org/packages/pandainfo/panda)
@@ -24,13 +22,17 @@
 
 # Welcome to Panda
 
+!!! warning
+    👷 This project is in early alpha stage and needs more testing.<br>
+    As things may change quickly, it is not yet ready for production.
+
 **[Panda](https://github.com/pandainfo/panda)** aims to provide a modern new generation CRM, ERP and CMS with [ONIX] and [EANCOM] support
 for selling, merchandising and searching books and digital media.
 
 [ONIX]: https://en.wikipedia.org/wiki/ONIX_for_Books "ONIX for Books on Wikipedia"
 [EANCOM]: https://en.wikipedia.org/wiki/XML/EDIFACT "XML/EDIFACT on Wikipedia"
 
-> **Powered by**
+!!! tip "**Powered by**"
 
 * [![Build Status](https://img.shields.io/github/stars/ampproject/amp-wp.svg?style=flat-square)](https://github.com/ampproject/amp-wp) [**AMP Framework**](https://github.com/ampproject/amp-wp)
 * [![Build Status](https://img.shields.io/github/stars/roots/bedrock.svg?style=flat-square)](https://github.com/roots/bedrock) [**Bedrock**](https://roots.io/bedrock/)
@@ -40,25 +42,24 @@ for selling, merchandising and searching books and digital media.
 * [![Build Status](https://img.shields.io/github/stars/squidfunk/mkdocs-material.svg?style=flat-square)](https://github.com/squidfunk/mkdocs-material) [**Material for MkDocs**](https://github.com/squidfunk/mkdocs-material)
 * [![Build Status](https://img.shields.io/github/stars/WordPress/WordPress.svg?style=flat-square)](https://github.com/WordPress/WordPress) [**WordPress Core**](https://make.wordpress.org/core/components/)
 
-For full documentation visit the [docs](./) pages.
-
 <!-- Abbreviations used by MkDocs for building a glossary -->
 <!-- https://squidfunk.github.io/mkdocs-material/reference/abbreviations/ -->
 --8<-- "mkdocs/abbreviations.md"
 
 ---
 
-> **Table of contents**
+???+ example "**Table of contents**"
+    1. [About](#about)
+    2. [Authors](#authors)
+    3. [Licensing](#licensing)
 
-1. [About](#about)
-2. [Authors](#authors)
-3. [Licensing](#licensing)
+!!! seealso ""
+    For full documentation visit the [docs](./) pages.
 
 ## About
 
-> **PANDA – NEXT GENERATION E-COMMERCE PLATFORM**
-
-Panda integrates several components in one system.
+!!! info "**PANDA – NEXT GENERATION E-COMMERCE PLATFORM**"
+    Panda integrates several components in one system.
 
 * [ ] **Website Builder:** Creating secure and fast Panda Landing Pages in static HTML
 * [ ] **ActivityPub:** Running booksellers associations using Panda Fediverse Social Networks
@@ -82,9 +83,12 @@ with contributions from the community.
 Like many other projects nowadays, Panda IT Solutions have
 a [Code of Conduct], comparable to the old days' [Netiquette].
 
-The project is licensed under the [GNU AGPL, Version 3.0][agpl].
-It may be used only in compliance with this license.
-For details [see below](#️licensing).
+!!! summary "License"
+    The project is licensed under the [GNU AGPL, Version 3.0][agpl].<br>
+    It may be used only in compliance with this license.
+
+!!! seealso "See also"
+    For details [see below](#️licensing).
 
 **Happy hacking!** 💜🤓
 
@@ -96,25 +100,25 @@ For details [see below](#️licensing).
 
 - **Pablo Hörtner** - _Initial work_ - [🐼 Team panda!](https://github.com/orgs/pandainfo/teams/panda)
 
-See also the [AUTHORS.md](AUTHORS.md) file and the [full list of contributors](https://github.com/pandainfo/panda/contributors) who participated in this project.
+!!! seealso "See also"
+    See also the [AUTHORS.md](AUTHORS.md) file and the [full list of contributors](https://github.com/pandainfo/panda/contributors) who participated in this project.
 
 ## Licensing
 
-    PANDA – NEXT GENERATION E-COMMERCE PLATFORM
+!!! abstract "Copyright"
+    PANDA – NEXT GENERATION E-COMMERCE PLATFORM<br>
     COPYRIGHT (c) 2020  PABLO HÖRTNER <REDTUX@PM.ME>
 
 Unless explicitly noted otherwise, all the content on this site is released under the following terms.
 
-For further information see [copyright.md](copyright.md).
-
 This project is free software: you can redistribute it and/or modify it under the terms of the **GNU Affero General Public License** as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
 
-You may obtain a copy of the License [here](LICENSE.md) or at
-
-    https://www.gnu.org/licenses/agpl-3.0.html
+!!! seealso "See also"
+    You may obtain a copy of the License [here](LICENSE.md) or at [gnu.org](https://www.gnu.org/licenses/agpl-3.0.html).<br>
+    For further information see [copyright.md](copyright.md).
