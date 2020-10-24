@@ -1,6 +1,6 @@
 # WP Core
 
-The Panda admin interface uses the following [WP Core] components.
+The Panda dashboard uses the following [WP Core] components.
 
 * [TinyMCE] visual editor
 * [WP-CLI] framework
