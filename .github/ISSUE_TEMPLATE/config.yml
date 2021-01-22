@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name:   Documentation
+    url:    https://github.com/pandainfo/panda/tree/master/docs
+    about:  Please read the docs before submitting a bug report.
+  - name:   Security
+    url:    https://github.com/pandainfo/panda/blob/master/docs/security.md
+    about:  Please report security issues via mail to security@panda.club
