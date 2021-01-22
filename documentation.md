@@ -86,7 +86,7 @@ sudo ln -sv /usr/bin/pip3 /usr/local/bin/pip
 * Get required Python packages.
 
     ```bash
-    pip install -r docs/requirements.txt
+    pip install -r requirements.txt
     ```
 
 * Start the live-reloading docs server.
