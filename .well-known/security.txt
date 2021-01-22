@@ -1,0 +1,22 @@
+# Define security policies
+# @See:  https://securitytxt.org/
+
+# Panda security addresses
+Contact: mailto:security@pandainfo.org
+Contact: https://twitter.com/redtux
+
+# Panda GnuPG/PGP key
+Encryption: https://pandainfo.org/contact/
+
+# Panda Team languages
+Preferred-Languages: de
+
+# URL to Panda's security.txt file
+Canonical: https://pandainfo.org/.well-known/security.txt
+
+# Panda security policy
+Policy: https://pandainfo.org/docs/security
+
+# Security-related jobs / projects
+Hiring: https://pandainfo.org/jobs
+
