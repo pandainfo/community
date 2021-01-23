@@ -39,12 +39,12 @@ copyright: |
   <a href="https://github.com/pandainfo"  target="_blank" rel="noopener">pandainfo.org</a>
 
 # Public URL
-site_url: https://pandainfo.github.io/panda
+site_url: https://pandainfo.github.io/community
 
 # Git Repository
-repo_url: https://github.com/pandainfo/panda
-repo_name: pandainfo/panda
-edit_uri: tree/master/docs
+repo_url: https://github.com/pandainfo/community
+repo_name: pandainfo/community
+edit_uri: tree/main/docs
 
 # Panda Docs menu
 nav:
