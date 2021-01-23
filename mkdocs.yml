@@ -25,18 +25,18 @@ site_name: Panda Docs
 
 # Website Description
 site_description: >-
-  PANDA – NEXT GENERATION E-COMMERCE PLATFORM
-  for selling, merchandising, and searching
-  books, non-books, digital media, and more
+    PANDA – NEXT GENERATION E-COMMERCE PLATFORM
+    for selling, merchandising, and searching
+    books, non-books, digital media, and more
 
 # Website Author
 site_author: Pablo Hörtner and Team Panda
 
 # Website Copyright
 copyright: |
-  Copyright &copy; 2013–2020 <a href="https://about.me/redtux"
-  target="_blank" rel="noopener">Pablo Hörtner aka redtux</a> for
-  <a href="https://github.com/pandainfo"  target="_blank" rel="noopener">pandainfo.org</a>
+    Copyright &copy; 2013–2020 <a href="https://about.me/redtux"
+    target="_blank" rel="noopener">Pablo Hörtner aka redtux</a> for
+    <a href="https://github.com/pandainfo"  target="_blank" rel="noopener">pandainfo.org</a>
 
 # Public URL
 site_url: https://pandainfo.github.io/community
@@ -48,33 +48,33 @@ edit_uri: tree/main/docs
 
 # Panda Docs menu
 nav:
-  - Home: index.md
-  - Getting started:
-      - Quickstart: quickstart.md
-      - Requirements: requirements.md
-      - Boilerplate: boilerplate.md
-      - Environment settings: environment.md
-      - Installation: install.md
-  - Overview:
-      - Features: features.md
-      - WP Core: wp-core.md
-      - Security: security.md
-      - Glossary: glossary.md
-  - Tutorials:
-      - WP Client: wp-cli.md
-      - Languages: languages.md
-      - Themes: themes.md
-  - Contribute:
-      - Join Team Panda: contributing.md
-      - Documentation: documentation.md
-      - Versioning: versioning.md
-      - Code of Conduct: code-of-conduct.md
-  - About:
-      - Who we are: about.md
-      - Our story: ourstory.md
-      - Authors: AUTHORS.md
-      - Copyright: copyright.md
-      - License: LICENSE.md
+    - Home: index.md
+    - Getting started:
+          - Quickstart: quickstart.md
+          - Requirements: requirements.md
+          - Boilerplate: boilerplate.md
+          - Environment settings: environment.md
+          - Installation: install.md
+    - Overview:
+          - Features: features.md
+          - WP Core: wp-core.md
+          - Security: security.md
+          - Glossary: glossary.md
+    - Tutorials:
+          - WP Client: wp-cli.md
+          - Languages: languages.md
+          - Themes: themes.md
+    - Contribute:
+          - Join Team Panda: contributing.md
+          - Documentation: documentation.md
+          - Versioning: versioning.md
+          - Code of Conduct: code-of-conduct.md
+    - About:
+          - Who we are: about.md
+          - Our story: ourstory.md
+          - Authors: AUTHORS.md
+          - Copyright: copyright.md
+          - License: LICENSE.md
 
 # Panda Docs theme
 #
@@ -83,122 +83,122 @@ nav:
 # @see: https://github.com/mkdocs/mkdocs/wiki/MkDocs-Themes
 #
 theme:
-  name: material
-  palette:
-    scheme: slate
-    primary: dark blue
-    accent: indigo
-  font:
-    text: Roboto
-    code: Roboto Mono
-  features:
-    - tabs
-    - instant
-  icon:
-    logo: material/panda
-    repo: fontawesome/brands/github
-  highlightjs: true
+    name: material
+    palette:
+        scheme: slate
+        primary: dark blue
+        accent: indigo
+    font:
+        text: Roboto
+        code: Roboto Mono
+    features:
+        - tabs
+        - instant
+    icon:
+        logo: material/panda
+        repo: fontawesome/brands/github
+    highlightjs: true
 
 # Add social media links to the footer
 extra:
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/redtux
-      name: Follow @redtux on GitHub
-    - icon: fontawesome/brands/gitlab
-      link: https://gitlab.com/redtux
-      name: Follow @redtux on GitLab
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/redtux
-      name: Follow @redtux on Twitter
-    - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/redtux/
-      name: Follow @redtux on LinkedIn
+    social:
+        - icon: fontawesome/brands/github
+          link: https://github.com/redtux
+          name: Follow @redtux on GitHub
+        - icon: fontawesome/brands/gitlab
+          link: https://gitlab.com/redtux
+          name: Follow @redtux on GitLab
+        - icon: fontawesome/brands/twitter
+          link: https://twitter.com/redtux
+          name: Follow @redtux on Twitter
+        - icon: fontawesome/brands/linkedin
+          link: https://www.linkedin.com/in/redtux/
+          name: Follow @redtux on LinkedIn
 
 # Enable recommended plugins
 plugins:
-  - awesome-pages
-  - git-revision-date-localized
-  - minify:
-      minify_html: true
-      minify_js: true
-      htmlmin_opts:
-        remove_comments: true
-  - search:
-      lang: en
+    - awesome-pages
+    - git-revision-date-localized
+    - minify:
+          minify_html: true
+          minify_js: true
+          htmlmin_opts:
+              remove_comments: true
+    - search:
+          lang: en
 
 # Enable recommended extensions
 # https://python-markdown.github.io/extensions/
 # https://facelessuser.github.io/pymdown-extensions/
 markdown_extensions:
-  - markdown.extensions.admonition
-  - markdown.extensions.abbr
-  - markdown.extensions.attr_list
-  - markdown.extensions.def_list
-  - markdown.extensions.footnotes
-  - markdown.extensions.md_in_html
-  - markdown.extensions.meta
-  - markdown.extensions.tables
-  - markdown.extensions.toc:
-      slugify: !!python/name:pymdownx.slugs.uslugify
-      permalink: true
-  - markdown.extensions.smarty:
-      smart_quotes: false
-  - pymdownx.arithmatex:
-      generic: true
-  - pymdownx.betterem:
-      smart_enable: all
-  - pymdownx.caret
-  - pymdownx.critic
-  - pymdownx.details
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
-  - pymdownx.escapeall:
-      hardbreak: true
-      nbsp: true
-  - pymdownx.highlight:
-      extend_pygments_lang:
-        - name: php-inline
-          lang: php
-          options:
-            startinline: true
-        - name: pycon3
-          lang: pycon
-          options:
-            python3: true
-      linenums_style: pymdownx-inline
-  - pymdownx.inlinehilite:
-      custom_inline:
-        - name: math
-          class: arithmatex
-          format: !!python/name:pymdownx.arithmatex.inline_mathjax_format
-  - pymdownx.keys
-  - pymdownx.magiclink:
-      repo_url_shortener: true
-      repo_url_shorthand: true
-      social_url_shorthand: true
-      social_url_shortener: true
-      provider: "github"
-      user: "pandainfo"
-      repo: "panda"
-  - pymdownx.mark
-  - pymdownx.progressbar
-  - pymdownx.saneheaders
-  - pymdownx.smartsymbols
-  - pymdownx.snippets:
-      check_paths: true
-  - pymdownx.striphtml:
-  - pymdownx.superfences:
-      preserve_tabs: true
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
-        - name: math
-          class: arithmatex
-          format: !!python/name:pymdownx.arithmatex.fence_mathjax_format
-  - pymdownx.tabbed
-  - pymdownx.tasklist:
-      custom_checkbox: true
-  - pymdownx.tilde
+    - markdown.extensions.admonition
+    - markdown.extensions.abbr
+    - markdown.extensions.attr_list
+    - markdown.extensions.def_list
+    - markdown.extensions.footnotes
+    - markdown.extensions.md_in_html
+    - markdown.extensions.meta
+    - markdown.extensions.tables
+    - markdown.extensions.toc:
+          slugify: !!python/name:pymdownx.slugs.uslugify
+          permalink: true
+    - markdown.extensions.smarty:
+          smart_quotes: false
+    - pymdownx.arithmatex:
+          generic: true
+    - pymdownx.betterem:
+          smart_enable: all
+    - pymdownx.caret
+    - pymdownx.critic
+    - pymdownx.details
+    - pymdownx.emoji:
+          emoji_index: !!python/name:materialx.emoji.twemoji
+          emoji_generator: !!python/name:materialx.emoji.to_svg
+    - pymdownx.escapeall:
+          hardbreak: true
+          nbsp: true
+    - pymdownx.highlight:
+          extend_pygments_lang:
+              - name: php-inline
+                lang: php
+                options:
+                    startinline: true
+              - name: pycon3
+                lang: pycon
+                options:
+                    python3: true
+          linenums_style: pymdownx-inline
+    - pymdownx.inlinehilite:
+          custom_inline:
+              - name: math
+                class: arithmatex
+                format: !!python/name:pymdownx.arithmatex.inline_mathjax_format
+    - pymdownx.keys
+    - pymdownx.magiclink:
+          repo_url_shortener: true
+          repo_url_shorthand: true
+          social_url_shorthand: true
+          social_url_shortener: true
+          provider: "github"
+          user: "pandainfo"
+          repo: "panda"
+    - pymdownx.mark
+    - pymdownx.progressbar
+    - pymdownx.saneheaders
+    - pymdownx.smartsymbols
+    - pymdownx.snippets:
+          check_paths: true
+    - pymdownx.striphtml:
+    - pymdownx.superfences:
+          preserve_tabs: true
+          custom_fences:
+              - name: mermaid
+                class: mermaid
+                format: !!python/name:pymdownx.superfences.fence_code_format
+              - name: math
+                class: arithmatex
+                format: !!python/name:pymdownx.arithmatex.fence_mathjax_format
+    - pymdownx.tabbed
+    - pymdownx.tasklist:
+          custom_checkbox: true
+    - pymdownx.tilde
