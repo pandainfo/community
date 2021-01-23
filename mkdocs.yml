@@ -65,6 +65,7 @@ nav:
       - Languages: languages.md
       - Themes: themes.md
   - Contribute:
+      - Join Team Panda: contributing.md
       - Documentation: documentation.md
       - Versioning: versioning.md
       - Code of Conduct: code-of-conduct.md
