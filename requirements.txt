@@ -43,3 +43,6 @@ mkdocs-git-revision-date-localized-plugin>=0.7
 
 # Install the Minify HTML and JS plugin
 mkdocs-minify-plugin>=0.3
+
+# Install the File exclude plugin
+mkdocs-exclude>=1.0
