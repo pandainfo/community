@@ -9,8 +9,10 @@ jobs:
   mkdocs:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout master branch
+      - name: Checkout repository and submodules
         uses: actions/checkout@v2
+        with:
+          submodules: recursive
 
       - name: Setup Python
         uses: actions/setup-python@v2
