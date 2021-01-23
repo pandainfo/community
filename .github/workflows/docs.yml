@@ -4,7 +4,7 @@ name: Publish Panda Docs
 on:
   push:
     branches:
-      - master
+      - main
 jobs:
   mkdocs:
     runs-on: ubuntu-latest
