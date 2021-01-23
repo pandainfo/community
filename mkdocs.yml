@@ -64,6 +64,25 @@ nav:
           - WP Client: wp-cli.md
           - Languages: languages.md
           - Themes: themes.md
+    - Wiki:
+          - Überblick:
+                - Willkommen: wiki/de/Startseite.md
+                - Projektbeschreibung: wiki/de/Beschreibung.md
+                - Projektziele: wiki/de/Ziele.md
+                - Projektstruktur: wiki/de/Struktur.md
+                - Stakeholder: wiki/de/Stakeholder.md
+          - Funktionen:
+                - Milestones: wiki/de/Module.md
+                - 1. Prototyp: wiki/de/Seiten.md
+                - 2. CRM-System: wiki/de/CRM.md
+                - 3. Produktimport: wiki/de/Produktimport.md
+                - 4. Buchbestellungen: wiki/de/Buchbestellungen.md
+          - Über uns:
+                - Kontakt: wiki/de/Kontakt.md
+                - Verhaltenskodex: wiki/de/Verhaltenskodex.md
+          - About us:
+                - Project Overview: wiki/Home.md
+                - Code of Conduct: wiki/Code-of-Conduct.md
     - Contribute:
           - Join Team Panda: contributing.md
           - Documentation: documentation.md
@@ -118,6 +137,10 @@ extra:
 # Enable recommended plugins
 plugins:
     - awesome-pages
+    - exclude:
+          glob:
+              - wiki/_*.md
+              - wiki/de/_*.md
     - git-revision-date-localized
     - minify:
           minify_html: true
