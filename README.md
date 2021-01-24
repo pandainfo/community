@@ -13,15 +13,15 @@
 # Welcome to Panda
 
 [![Publish Panda Docs](https://github.com/pandainfo/community/workflows/Publish%20Panda%20Docs/badge.svg)](https://github.com/pandainfo/community/actions?query=workflow%3A%22Publish+Panda+Docs%22)
-[![codecov](https://codecov.io/gh/pandainfo/community/branch/main/graph/badge.svg?token=4GT5ZSBR3H)](https://codecov.io/gh/pandainfo/community)
 [![AGPL-3.0 License](https://flat.badgen.net/github/license/pandainfo/community)](LICENSE)
 [![Follow @redtux](https://flat.badgen.net//twitter/follow/redtux)](https://twitter.com/redtux)
 
 > **Table of contents**
 
 1. [About](#about)
-2. [Authors](#authors)
-3. [Licensing](#licensing)
+2. [Links](#links)
+3. [Authors](#authors)
+4. [Licensing](#licensing)
 
 <table>
 <tr>
@@ -71,9 +71,27 @@ For details [see below](#️licensing).
 [Netiquette]: https://tools.ietf.org/html/rfc1855 "Netiquette Guidelines from October 1995"
 [agpl]: https://www.gnu.org/licenses/agpl-3.0.html "GNU Affero General Public License"
 
+## Links
+
+The project is split into different project repositories, some of them still being private.
+They contain no proprietary code, and everyone interested in joining can get access [here].
+
+* [x] [Docs](https://github.com/pandainfo/community/tree/master/docs)
+* [x] [Wiki](https://github.com/pandainfo/community/wiki)
+* [ ] [Development](https://github.com/pandainfo/panda) (private repo)
+* [x] [Staging](https://radicalbookstore.at/)
+* [x] [Production](https://radicalbookstore.com)
+* [ ] [pandastic Development](https://github.com/pandainfo/pandastic) (private repo)
+* [ ] [pandastic Demo](https://github.com/pandainfo/pandastic.press) (private repo)
+* [x] [pandastic.press](https://pandastic.press)
+* [ ] [ONIX Samples](https://github.com/pandainfo/onix-files) (private repo)
+* [x] [association panda](https://github.com/pandainfo/pandainfo.github.io)
+
+[here]: https://github.com/pandainfo/community/issues/new?assignees=&labels=membership&template=membership.md&title=REQUEST%3A+New+membership+for+%3Cyour-GH-handle%3E "Request membership to 🐼 Team Panda"
+
 ## Authors
 
-- **Pablo Hörtner** - _Initial work_ - [🐼 Team panda!](https://github.com/orgs/pandainfo/teams/panda)
+* **Pablo Hörtner** - _Initial work_ - [🐼 Team panda!](https://github.com/orgs/pandainfo/teams/panda)
 
 See also the [AUTHORS.md](docs/AUTHORS.md) file and the [full list of contributors](https://github.com/pandainfo/community/contributors) who participated in this project.
 
