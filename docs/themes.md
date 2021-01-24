@@ -260,12 +260,12 @@ who participated in this project.
 
 | **Project**         | Copyright notice                                     | License            |
 | ------------------- | ---------------------------------------------------- | ------------------ |
-| **[Bootstrap]**     | &copy; 2011-2020 [Bootstrap Authors] & [Twitter]     | [MIT]              |
-| **[jQuery]**        | &copy; 2005-2020 [jQuery Authors] and [OpenJS]       | [MIT]              |
-| **[normalize.css]** | &copy; 2012-2020 Nicolas Gallagher and Jonathan Neal | [MIT]              |
-| **[Popper]**        | &copy; 2016-2020 [Federico Zivolo]                   | [MIT]              |
-| **[Underscores]**   | &copy; 2012-2020 [automattic]                        | [GPLv2] (or later) |
-| **[WPGulp]**        | &copy; 2016-2020 [Ahmad Awais]                       | [GPLv2] (or later) |
+| **[Bootstrap]**     | &copy; 2011-2021 [Bootstrap Authors] & [Twitter]     | [MIT]              |
+| **[jQuery]**        | &copy; 2005-2021 [jQuery Authors] and [OpenJS]       | [MIT]              |
+| **[normalize.css]** | &copy; 2012-2021 Nicolas Gallagher and Jonathan Neal | [MIT]              |
+| **[Popper]**        | &copy; 2016-2021 [Federico Zivolo]                   | [MIT]              |
+| **[Underscores]**   | &copy; 2012-2021 [automattic]                        | [GPLv2] (or later) |
+| **[WPGulp]**        | &copy; 2016-2021 [Ahmad Awais]                       | [GPLv2] (or later) |
 
 !!! check "Thank you! :heart:"
     A big thanks to all authors and contributors, and to the whole free software community.

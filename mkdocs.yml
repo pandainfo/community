@@ -2,7 +2,7 @@
 #                  ❤️ 🐼  PANDA   DOCS   CONFIG  🐼❤️
 # ********************************************************************
 #
-# Copyright © 2020 Pablo Hörtner <redtux@pm.me>. Some rights reserved.
+# Copyright © 2021 Pablo Hörtner <redtux@pm.me>. Some rights reserved.
 #
 # This project is free software: you can redistribute it and/or modify it
 # under the terms of the GNU Affero General Public License as published
@@ -34,7 +34,7 @@ site_author: Pablo Hörtner and Team Panda
 
 # Website Copyright
 copyright: |
-    Copyright &copy; 2013–2020 <a href="https://about.me/redtux"
+    Copyright &copy; 2013–2021 <a href="https://about.me/redtux"
     target="_blank" rel="noopener">Pablo Hörtner aka redtux</a> for
     <a href="https://github.com/pandainfo"  target="_blank" rel="noopener">pandainfo.org</a>
 

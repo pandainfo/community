@@ -98,7 +98,7 @@ See also the [AUTHORS.md](docs/AUTHORS.md) file and the [full list of contributo
 ## Licensing
 
     PANDA – NEXT GENERATION E-COMMERCE PLATFORM
-    COPYRIGHT (c) 2020  PABLO HÖRTNER <REDTUX@PM.ME>
+    COPYRIGHT © 2021 PABLO HÖRTNER <REDTUX@PM.ME>
 
 Unless explicitly noted otherwise, all the content on this site is released under the following terms.
 
