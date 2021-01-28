@@ -14,6 +14,11 @@ contributions are welcome.
 7. [Epics](#epics)
 8. [Milestones](#milestones)
 9. [Issues workflow](#issues-workflow)
+  1. [Helper labels](#helper-labels)
+  2. [Status labels](#status-labels)
+  3. [Priority labels](#priority-labels)
+  4. [Type labels](#type-labels)
+  5. [GitHub labels](#github-labels)
 10. [Feature requests](#feature-requests)
 11. [Bug reports](#bug-reports)
 12. [Merge requests](#merge-requests)
@@ -36,27 +41,36 @@ Our **collaboration policy** communicates how best to work together on this proj
 
 In case you are contributing to this project for the first time, it would be nice if you could briefly introduce yourself, telling us about your interest in the project and related experiences.
 
-> <3 **Thanks a lot for your interest in contributing to Panda!** <3
+**Working on your first Pull Request?** You can learn how from this *free* series
+[How to Contribute to an Open Source Project on GitHub](https://kcd.im/pull-request).
+
+> ❤️ **Thanks a lot for your interest in contributing to Panda!** ❤️
 
 ## Organization
 
 Visit [Team panda!] for details.
+We use [ZenHub Workspaces](https://help.zenhub.com/).
+
+See [Working with ZenHub](https://canonical-web-and-design.github.io/practices/project-management/zenhub.html) if you are new to the world of Scrum and Kanban.
+
+See [Track team Velocity sprint-over-sprint](https://help.zenhub.com/support/solutions/articles/43000010358-track-team-velocity-sprint-over-sprint)
+for infos about velocity charts.
 
 This project is organized as follows:
 
 > **[Roadmap] > [Milestones] > [Epics] > [Issues]**
 
 [Team panda!]: https://github.com/orgs/pandainfo/teams/panda
-[Roadmap]: https://github.com/pandainfo/panda/projects/2 "Panda Roadmap"
-[Milestones]: https://github.com/pandainfo/panda/milestones "Panda Milestones"
-[Epics]: https://github.com/pandainfo/panda/issues?q=is%3Aissue+label%3Aepic "Panda Epics"
-[Issues]: https://github.com/pandainfo/panda/issues "Panda Issues"
+[Roadmap]: https://github.com/pandainfo/projects/1 "Panda Roadmap"
+[Milestones]: https://github.com/pandainfo/community/milestones "Panda Milestones"
+[Epics]: https://github.com/pandainfo/community/issues?q=is%3Aissue+label%3Aepic "Panda Epics"
+[Issues]: https://github.com/pandainfo/community/issues "Panda Issues"
 
 An issue can be a [feature request] or enhancement formulated as a user story, a [bug report], or a proposed patch submitted as a [pull request].
 
-[feature request]: https://github.com/pandainfo/panda/issues/new?assignees=redtux&labels=enhancement&template=feature-request.md&title= "Create a new feature request"
-[bug report]: https://github.com/pandainfo/panda/issues/new?assignees=redtux&labels=bug&template=bug-report.md&title= "Create a new bug report"
-[pull request]: https://github.com/pandainfo/panda/pulls?q=is%3Apr "Show pull requests"
+[feature request]: https://github.com/pandainfo/community/issues/new?assignees=redtux&labels=enhancement&template=feature-request.md&title= "Create a new feature request"
+[bug report]: https://github.com/pandainfo/community/issues/new?assignees=redtux&labels=bug&template=bug-report.md&title= "Create a new bug report"
+[pull request]: https://github.com/pandainfo/community/pulls?q=is%3Apr "Show pull requests"
 
 Not only code contributions
 but also help with docs, e.g.
@@ -186,7 +200,7 @@ Try to clarify your request or user story with code examples and sketches such a
 
 ## Epics
 
-Epics are like chapters
+Epics are like chapters.
 Depending on the estimated workload a task can be divided into several sub-tasks. Such big issues are called epics.
 
 Think of an epic as a large user story (like our role-based security example) represented by an issue with the label `epic`.
@@ -197,19 +211,27 @@ Each issue or epic in turn needs to be linked to a Kanban project.
 
 According to the nature of the issue and the team that will be working on it, this can be
 
-* api
-* core
-* design
-* documentation
-* environment
+* [x] `api`: 👽 *Issues or PRs related to GraphGL, ONIX, B2B and external API changes*
+* [x] `core`: 🐼 *Issues or PRs related to Panda Core, Composer, Bedrock or ClassicPress*
+* [x] `design`: 🎨 *Issues or PRs related to pandastic theme or assets like SCSS and SVGs*
+* [x] `documentation`: 📝 *Improvements or additions to documentation.* This label is for issues and PRs/MRs that only require a documentation change, to differentiate from those coupled with a feature change. This label can be used for epics, issues, and merge requests related to product documentation.
+* [x] `environments`: 👷 *Control CI/CD workflows and pipelines.* This label is for issues about [environments and deployments](https://docs.gitlab.com/ee/ci/environments.html).
+* [x] `infra`: 🔧 *Issues or PRs related to infrastructure like Docker or development scripts*
+* [x] `php`: ⚙️ *Issues or pull requests that update PHP code.*
+* [x] `rbac`: 🛂 *Issues or PRs related to authorization, roles and permissions*
 
 ## Milestones
 
-A milestone defines the chunk of work planned for the next major release. It shows the big picture of what needs to be done to bring our project to the next level.
+A milestone defines the chunk of work planned for the next minor release.
+It shows the big picture of what needs to be done to bring our project to the next level.
 
 Think of milestones as anchors or markers for our major goals.
 
-The four-weeks lasting period between milestones is called a sprint.
+The two-weeks lasting period between milestones is called a sprint or an iteration.
+
+Iterations start on a Tuesday and finish on a Monday.
+
+Each iteration should be a milestone in GitHub in the format MAJOR.MINOR, like `1.4`.
 
 ## Issues workflow
 
@@ -219,35 +241,70 @@ Showing support with an emoji at the respective comment is appreciated as much a
 
 Tags or labels like `bug`, `security` or `rbac` (for [role-based access control](https://en.m.wikipedia.org/wiki/Role-based_access_control)) will help organizing and sorting our issues. They can be set at issue creation, as part of a review, or when working on it.
 
-Currently we use 21 different labels. This number may grow in the future.
+Currently we use over thirty different labels. This number may grow in the future.
 
-Most issues will have labels for at least one of the following types:
+<details>
+<summary><b>Issue details</b></summary>
 
-* `api`
-* `bug`: *Something isn't working.* This label is for bug reports, i.e. for issues that report undesirable or incorrect behavior.
-* `confidential`: *Kept secret for privacy or security reasons.* This label is for confidential data. The content of the issue or comments contains references to private user information, such as private repository paths, and its contents should remain confidential indefinitely. This is usually primarily used for `security` or production issues.
-* `core`
-* `customer`: *Subscribers may get quicker support.* This label is for issues that were reported by paying **Panda Supporters' Edition** subscribers, indicating higher priority. This label should be accompanied by either the `bug` or `feature` label.
-* `dependencies`: *Pull requests that update a dependency file.* This label shall be used when updating manifest files for Python pip, npm, PHP Composer, Ruby Bundler, Docker, etc.
-* `documentation`: *Improvements or additions to documentation.* This label is for issues and PRs/MRs that only require a documentation change, to differentiate from those coupled with a feature change. This label can be used for epics, issues, and merge requests related to product documentation.
-* `duplicate`: *This issue or pull request already exists.* Duplicates should be closed with an explanatory note and a link pointing to the original issue.
-* `enhancement`: *New feature or request.* This label can refine an issue that has the `feature` label. This is for issues that propose improvements to existing features.
-* `environments`: *Control CI/CD workflows and pipelines.* This label is for issues about [environments and deployments](https://docs.gitlab.com/ee/ci/environments.html).
-* `epic`: *Large user story linking to sub-tasks.* This label is for task checklists of linked issues.
-* `feature`: *Suggest an idea for Panda.* This label is for any issue (feature request or PR/MR) that contains work to support the implementation of a feature and/or results in an improvement in the user experience.
-* `feedback`: *Tell us what you think about Panda.* This issue type is meant to give general feedback or to just leave a note.
-* `design`
-* `github_actions`: *Pull requests that update Github_actions code.*
-* `good first issue`: *Good for newcomers.* This label will be set automatically.
-* `help wanted`: *Extra attention is needed.* This label indicates that work on an issue is stuck.
-* `invalid`: *This doesn't seem right.*
-* `milestones`: *Big things are happening here.* This label is for issues related to the [Milestones feature](https://docs.gitlab.com/ce/user/project/milestones/) on issues and merge requests.
-* `php`: *Pull requests that update PHP code.*
-* `production::blocker`: *We cannot go live until this is fixed.* This label is for issues that block the deployment to production.
-* `question`: *Further information is requested.* This label indicates that we are waiting for input by the reporter.
-* `security`: *Dependency updates of insecure libraries, code audits, system hardening.* This label is for issues related to the security of Panda or its dependencies. It is asked to report severe vulnerabilities responsibly per GPG encrypted mail, via Signal, or through another secure channel.
-* `todos`: This label is for issues related to the [To-Do list feature](http://doc.gitlab.com/ce/workflow/todos.html). To-Do lists offer a dashboard with a chronological list of items that are waiting for input.
-* `wontfix`: *This will not be worked on.*
+</br>
+
+> Most issues will have labels for at least one of the following types.
+
+See [labels](labels) for a compact cheat sheet.
+
+### Helper labels
+
+* [x] `customer`: 😎 *Subscribers may get quicker support.* This label is for issues that were reported by paying **Panda Supporters' Edition** subscribers, indicating higher priority. This label should be accompanied by either the `bug` or `feature` label.
+* [x] `dontmerge`: ❌ *This pull request needs testing or refactoring.* Further work is needed before merging.
+* [x] `duplicate`: ♻️ *This issue or pull request already exists.* Duplicates should be closed with an explanatory note and a link pointing to the original issue.
+* [x] `enhancement`: 🎉 *New feature or request.* This label can refine an issue that has the `feature` label. This is for issues that propose improvements to existing features.
+* [x] `epic`: 🔖 *Large user story linking to sub-tasks.* This label is for task checklists of linked issues.
+* [x] `milestones`: 🚀 *Big things are happening here.* This label is for issues related to the [Milestones feature](https://docs.gitlab.com/ce/user/project/milestones/) on issues and merge requests.
+* [x] `todos`: ✅ This label is for issues related to the [To-Do list feature](http://doc.gitlab.com/ce/workflow/todos.html). To-Do lists offer a dashboard with a chronological list of items that are waiting for input.
+
+### Status labels
+
+* [x] `blocker`: ⛔ *We cannot go live until this is fixed.* This label is for issues that block the deployment to production.
+* [x] `confidential`: 🛡️ *Kept secret for privacy or security reasons.* This label is for confidential data. The content of the issue or comments contains references to private user information, such as private repository paths, and its contents should remain confidential indefinitely. This is usually primarily used for `security` or production issues.
+* [x] `released`: ✈️ *Yay, we're going live!* This issue or pull request has been released to production.
+* [x] `wip`: 🚧 *This issue or pull request is work in progress.* This label indicates that somebody is currently working at it. See [Introducing draft pull requests](https://github.blog/2019-02-14-introducing-draft-pull-requests/) and the [WIP app](https://github.com/apps/wip).
+* [x] `wontfix`: 🚫 *This will not be worked on.* The issue does not look appropriate or relevant for this project.
+
+### Priority labels
+
+* [x] `critical` 🚑 *Please, fix me NOW!* This issue has to be fixed asap.
+* [x] `high` ‼️ *I'm having major priority.* This issue is causing a major regression, restricting functionally.
+* [x] `medium` ❗ *I'm having normal priority.* This is not a damaging issue but requires attention in due course.
+* [x] `low` ❕ *Don't worry, I'm having minor priority.* Has been confirmed as a nice to have.
+
+### Type labels
+
+* [x] `breaking-change` 💣 *Breaking backward compatibility* This change will break users of earlier versions of the code.
+* [x] `bug`: 🐛 *Something isn't working.* This label is for bug reports, i.e. for issues that report undesirable or incorrect behavior.
+* [x] `dependencies`: ⬆️ *Pull requests that update a dependency file.* This label shall be used when updating manifest files for Python pip, npm, PHP Composer, Ruby Bundler, Docker, etc.
+* [x] `feature`: ✨ *Suggest an idea for Panda.* This label is for any issue (feature request or PR/MR) that contains work to support the implementation of a feature and/or results in an improvement in the user experience.
+* [x] `feedback`: 💬 *Tell us what you think about Panda.* This issue type is meant to give general feedback or to just leave a note.
+* [x] `help wanted`: 🆘 *Extra attention is needed.* This label indicates that work on an issue is stuck.
+* [x] `invalid`: ❎ *This doesn't seem right.* The issue is not comprehensive or belongs to another project.
+* [x] `performance`: ⚡️ *Cache, Minify, CDN, Memory, Storage, Transmission speed,…* This issue is related to methods that aim to speed up the site for end users
+* [x] `question`: ❓ *Further information is requested.* This label indicates that we are waiting for input by the reporter.
+* [x] `security`: 🔒 *Dependency updates of insecure libraries, code audits, system hardening.* This label is for issues related to the security of Panda or its dependencies. It is asked to report severe vulnerabilities responsibly per GPG encrypted mail, via Signal, or through another secure channel.
+
+[new contributors]: https://help.github.com/articles/helping-new-contributors-find-your-project-with-labels/
+
+### GitHub labels
+
+* [x] `area/github-integration`: *Third-party integrations, webhooks, or GitHub Apps*
+* [x] `area/github-management`: *Issues or PRs related to GitHub Management*
+* [x] `area/github-membership`: *Requesting membership in a Panda GitHub Organization or Team*
+* [x] `area/github-repo`: *Creating, migrating or deleting a Panda GitHub Repository*
+* [x] `area/github-permissions`: *Permissions requests and problems*
+* [x] `github_actions`: *Pull requests that update Github_actions code.*
+* [x] `good first issue`: *Good for newcomers* This issue is a starting point for [new contributors], like a typo, a grammar error, or a minor code change. This label will be set automatically.
+
+</details>
+
+</br>
 
 ## Feature requests
 
@@ -297,7 +354,7 @@ Merge requests lead to higher-quality code by involvement of as many team member
 
 ## Writing Documentation
 
-Documentation improvements are very welcome. Contributions can be made directly here or at [**Panda Docs**](https://github.com/pandainfo/panda/tree/master/docs).
+Documentation improvements are very welcome. Contributions can be made directly here or at [**Panda Docs**](https://github.com/pandainfo/community/tree/master/docs).
 
 ## Some hints for newbies
 
