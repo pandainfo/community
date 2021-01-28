@@ -87,6 +87,7 @@ nav:
           - Join Team Panda: contributing.md
           - Documentation: documentation.md
           - Versioning: versioning.md
+          - Issue Labels: labels.md
           - Code of Conduct: code-of-conduct.md
     - About:
           - Who we are: about.md
