@@ -16,6 +16,7 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![AGPL-3.0 License](https://flat.badgen.net/github/license/pandainfo/community)](LICENSE)
 [![Follow @redtux](https://flat.badgen.net//twitter/follow/redtux)](https://twitter.com/redtux)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fpandainfo%2Fcommunity.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fpandainfo%2Fcommunity?ref=badge_shield)
 
 > **Table of contents**
 
@@ -157,3 +158,6 @@ This project is free software: you can redistribute it and/or modify it under th
 You may obtain a copy of the License [here](LICENSE) or at
 
     https://www.gnu.org/licenses/agpl-3.0.html
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fpandainfo%2Fcommunity.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fpandainfo%2Fcommunity?ref=badge_large)
